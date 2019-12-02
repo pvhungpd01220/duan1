@@ -1,0 +1,296 @@
+/* CSS Document */
+body {
+    background-color: lightblue;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-image:url(../image/nen.jpg);
+    }
+}
+*{
+	width:100%;
+	height:auto;
+	box-sizing:border-box;
+	
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 15px; padding: 0; margin: 0;}
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #89867e;
+	
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0F0;
+}
+header{
+	height:280px;
+	width:84%;
+	margin:auto;
+	background-color:#666;
+}
+
+#banner{
+	width:100%;
+	height:200px;
+}
+
+#menu-second {
+	width:100%;
+	overflow: hidden;
+	height: 70px;
+	background-color: #09F;
+	
+	margin:auto;
+}
+
+#menu-second ul{
+	width: 100%;
+	height: 15%;
+}
+
+
+#menu-second ul li{
+	height: 70px;
+	width:14%;
+	line-height: 55px;
+	display: block;
+	float: left;
+	
+}
+
+
+#menu-second ul li a{
+	display: block;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 0 10px;
+	text-align:center;
+	font-size:15px;
+	padding-top:10px;
+}
+#menu-second ul li a:hover{
+	transition: .7s;
+	background-color: #F30;
+	color:#000;
+}
+
+.note{
+	height:40px;
+	width:84%;
+	margin:auto;
+	background-color:#06F;
+	margin-top:-10px;
+}
+.note .thongbao{
+	height:40px;
+	width:15%;
+	background-color:#000;
+	float:left;
+	
+}
+.note .chay{
+	height:40px;
+	width:85%;
+	float:left;
+	background-color:#FFF;
+}
+section .content{
+	height:auto;
+	width:84%;
+	background-color:#999;
+	margin:auto;
+	margin-top:3px;
+}
+section .content .1{
+	height:1610px;
+	width:70%;
+	float:left;
+	background-color:#F09;
+}
+section .content  .content_left{
+	height:400px;
+	width:30%;
+	background-color:#FFF;
+	
+	float:left;
+	margin-bottom:2px;
+}
+section .content .content_center{
+	height:400px;
+	width:49%;
+	margin:0px 1px;
+	float:left;
+	background-color:#690;
+	margin-bottom:2px;
+}
+section .content .content_right{
+	height:1600px;
+	width:20%;
+	float:right;
+	margin-right:2px;
+	margin-top:-1200px;
+
+}
+.title{
+	background-color:#06F;
+	width:100%;
+	height:50px;
+
+	
+	margin-top:3px;
+}
+h1{
+	font-size:16px;
+	color:#900;
+	text-align:center;
+	padding-top:15px;
+	margin-top:-3px;;
+}
+.nav_2 {
+width:100%;
+height:300px;
+}
+.nav_2 ul{
+	width:100%;
+}
+.nav_2 ul li{
+	line-height:40px;
+	width:80%;
+	height:50px;
+	
+}
+.nav_2 ul li a{
+	text-align:center;
+	color:#C00;
+	font-size:16px;
+}
+.nav_2 ul li a:hover{
+	color:#30F;
+}
+#product{
+	height:68px;
+	width:99%;
+	float:left;
+	border:1px #000099 solid;
+	margin-left:1px;
+	margin-top:2px;
+}
+.other_blocknews {
+	padding:5px;
+	margin-left:-17px;
+	margin-top:-19px;
+}
+.other_blocknews ul{}
+.other_blocknews ul li{ 
+	background:#3C6;
+	padding:5px;
+	border-bottom:1px solid #37bbb9;
+	
+}
+.other_blocknews ul li a{
+	font-weight:bold;
+	text-decoration:none;
+
+}
+.other_blocknews ul li img{
+	padding:2px;
+	border:1px solid #37bbb9;
+	width:60px;
+	float:left;
+	margin-right:4px;
+}
+section .content  .content_left1{
+	height:400px;
+	width:30%;
+	background-color:#FFF;
+	
+	float:left;
+	margin-bottom:1px;
+}
+.anh{
+	height:70px;
+	width:70px;
+	float:left;
+	margin:2px;
+}
+.box{
+	height:10px;
+	width:250px;
+	
+	float:left;
+	margin-left:5px;
+	margin-top: 2px;
+}
+.box li{
+	list-style:none;
+}
+.box1 li{
+	list-style:none;
+	margin-top:240px;
+	margin-right:50px;
+}
+.box2 ul{
+     width:100%;
+	 margin-right:0px;	
+}
+.box2 ul li{
+	width:100%;
+    display:block;
+    
+    margin-left:-25px;
+}
+.box ul li a{
+	padding-left:-25px;
+	marrgin-top:-3px;
+}
+.content_center li{
+	list-style:none;
+	
+	margin-left:50px;
+}
+.fl{
+	width:60%;
+	margin:auto;
+}
+.fl p{
+	text-align:center;
+	
+	
+}
+
+#footer{
+	width:84%;
+	margin:auto;
+	height:230px;
+	background-color:#0CF;
+}
+#album{
+	width:100%;
+	height:200px;
+	background-color:#C69;
+	float:left;
+	margin-bottom:5px;
+	margin-top:2px;
+}
+.box_nd{
+	width:100%;
+	height:200px;
+	border-bottom:2px solid #000;
+}
+.title a:hover h1{
+	color:#F0C;
+}
+.box_nd a: hover{
+	color:#F00;
+	
+}
